@@ -5,8 +5,8 @@ public class Cliente {
 	public int conta;
 	public double saldo = 350;
 	
-	public void exibeSaldo (double saldo) {
-		System.out.printf("Saldo: R$ %.2f\n", saldo);
+	public void exibeSaldo (double deposito) {
+		System.out.printf("Saldo: R$ %.2f\n", (saldo + deposito) );
 	}
 	
 }

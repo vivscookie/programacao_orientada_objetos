@@ -13,7 +13,7 @@ public class TesteCliente {
 		System.out.println("Quantidade depositada: ");
 		deposito = entrada.nextDouble();
 		
-		cliente1.exibeSaldo(deposito + cliente1.saldo);
+		cliente1.exibeSaldo(deposito);
 	}
 
 }
